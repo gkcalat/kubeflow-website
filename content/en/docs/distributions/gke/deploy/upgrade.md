@@ -256,6 +256,10 @@ To upgrade from specific versions of Kubeflow, you may need to take certain manu
 Kubeflow on Google Cloud doesn't guarantee the upgrade for each Kubeflow component always works with the general upgrade guide here. Please refer to corresponding repository in [Kubeflow org](https://github.com/kubeflow) for upgrade support.
 {{% /alert %}}
 
+### Upgrade Kubeflow cluster to v1.6
+
+Kubeflow v1.6 we upgraded cert-manger to v1.5 and ...
+
 ### Upgrade Kubeflow cluster to v1.5
 
 Starting from Kubeflow v1.5.1 we upgraded ASM to v1.13. Follow the instructions on how to [upgrade ASM (Anthos Service Mesh)](#upgrade-asm-anthos-service-mesh). If you want to use ASM version prior to 1.11, refer to [the legacy instructions](https://github.com/kubeflow/gcp-blueprints/blob/master/kubeflow/common/asm/deprecated/README.md).
